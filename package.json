@@ -1,0 +1,25 @@
+{
+  "name": "uofrslack-bot",
+  "version": "1.0.0",
+  "description": "uofrobotics personal maid",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uofrobotics/uofrslack-bot.git"
+  },
+  "author": "lite20",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uofrobotics/uofrslack-bot/issues"
+  },
+  "homepage": "https://github.com/uofrobotics/uofrslack-bot#readme",
+  "dependencies": {
+    "@slack/rtm-api": "^5.0.3",
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "slackbots": "^1.2.0"
+  }
+}
